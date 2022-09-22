@@ -6,6 +6,7 @@ import { Row } from "./components/row";
 import { requests } from "./request";
 
 function App() {
+  console.log(process.env.REACT_APP_REQUEST_API_KEY);
   return (
     <div className="App">
       <Nav />

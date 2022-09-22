@@ -1,6 +1,6 @@
 //axios.jsのbaseURLの末尾に付属する
 
-const API_KEY = process.env.React_APP_API_KEY;
+const API_KEY = process.env.REACT_APP_REQUEST_API_KEY;
 
 export const requests = {
   feachTrending: `/trending/all/week?api_key=${API_KEY}&language=en-us`,
